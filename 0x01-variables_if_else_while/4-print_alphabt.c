@@ -9,9 +9,8 @@
 int main(void)
 {
 char c;
-
 for (c = 'A'; c <= 'Z'; ++c)
-if ((putchar(tolower(c)) != "q") && (putchar(tolower(c)) != "e"))
+if ((putchar(tolower(c)) != 'q') && (putchar(tolower(c)) != 'e'))
 {
 putchar(tolower(c));
 }
