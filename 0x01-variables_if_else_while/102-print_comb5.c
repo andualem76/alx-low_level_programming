@@ -10,39 +10,27 @@ int main(void)
 {
 int c;
 int d;
-int e;
-int f;
 
-for (c = 0; c < 10; ++c)
+for (c = 0; c < 100; ++c)
 {
-for (d = 0; d < 10; ++d)
+for (d = 0; d < 100; ++d)
+{
+if (d > c)
 {
 
-/*second number*/
-for (e = c; e < 10; ++e)
-{
-for (f = d + 1; f < 10; ++f)
-{
-if (c <= e && d < f)
-{
-putchar((c % 10) + '0');
-putchar((d % 10) + '0');
+putchar(c / 10 + '0');
+putchar(c % 10 + '0');
 putchar(' ');
-putchar((e % 10) + '0');
-putchar((f % 10) + '0');
-if (c == 9 && d == 8 && e == 9 && f == 9)
+putchar(d / 10 + '0');
+putchar(d % 10 + '0');
+if (c == 98 && d == 99)
 {
 continue;
 }
-
 putchar(',');
 putchar(' ');
 
 }
-}
-}
-
-
 }
 }
 

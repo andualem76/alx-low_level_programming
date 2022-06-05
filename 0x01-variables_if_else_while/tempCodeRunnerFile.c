@@ -1,2 +1,1 @@
-
-putchar(' ');
+putchar((c % 10) + '0');
