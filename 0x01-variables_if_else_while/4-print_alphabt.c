@@ -11,7 +11,7 @@ int main(void)
 char c;
 
 for (c = 'A'; c <= 'Z'; ++c)
-if ((c != "Q") && (c != "E"))
+if ((putchar(tolower(c)) != "q") && (putchar(tolower(c)) != "e"))
 {
 putchar(tolower(c));
 }
