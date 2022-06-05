@@ -19,9 +19,9 @@ for (d = 0; d < 10; ++d)
 {
 
 /*second number*/
-for (e = 0; e < 10; ++e)
+for (e = c; e < 10; ++e)
 {
-for (f = 0; f < 10; ++f)
+for (f = d + 1; f < 10; ++f)
 {
 if (c <= e && d < f)
 {
