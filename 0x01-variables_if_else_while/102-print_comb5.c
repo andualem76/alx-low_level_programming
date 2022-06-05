@@ -23,7 +23,7 @@ for (e = 0; e < 10; ++e)
 {
 for (f = 0; f < 10; ++f)
 {
-if (c <= e && d <= f)
+if (c <= e && d < f)
 {
 putchar((c % 10) + '0');
 putchar((d % 10) + '0');
