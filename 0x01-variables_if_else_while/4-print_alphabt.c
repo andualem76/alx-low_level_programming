@@ -12,8 +12,9 @@ char c;
 
 for (c = 'A'; c <= 'Z'; ++c)
 if ((c != "Q") && (c != "E"))
+{
 putchar(tolower(c));
-
+}
 putchar('\n');
 return (0);
 }
