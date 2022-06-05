@@ -10,7 +10,7 @@ int main(void)
 {
 char c;
 for (c = 'A'; c <= 'Z'; ++c)
-if ((putchar(tolower(c)) != 'q') && (putchar(tolower(c)) != 'e'))
+if ((c != 'q') && (c != 'e'))
 {
 putchar(tolower(c));
 }
