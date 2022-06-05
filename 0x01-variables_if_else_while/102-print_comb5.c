@@ -30,7 +30,7 @@ putchar((d % 10) + '0');
 putchar(' ');
 putchar((e % 10) + '0');
 putchar((f % 10) + '0');
-if(c == 9 && d == 8 && e == 9 && f == 9)
+if (c == 9 && d == 8 && e == 9 && f == 9)
 {
 continue;
 }
