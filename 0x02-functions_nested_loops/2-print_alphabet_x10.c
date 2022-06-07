@@ -3,7 +3,7 @@
 #include <ctype.h>
 
 /**
- * print_alphabet - Entry point
+ * print_alphabet_x10 - Entry point
  *
  * Description: 'print 10 times alphabey'
  *
