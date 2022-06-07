@@ -11,6 +11,7 @@
 /* print_alphabet print list of alphabet*/
 void print_alphabet(void)
 {
+/* print_alphabet print list of alphabet*/
 char a;
 for (a = 'A'; a <= 'Z'; ++a)
 putchar(tolower(a));
