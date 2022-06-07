@@ -1,18 +1,14 @@
-#include <unistd.h>
 #include <stdio.h>
-#include <ctype.h>
+#include "1-alphabet.c"
+#include "0-putchar.c"
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
+ * main - check the code
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: Always 0.
  */
-char print_alphabet()
+int main(void)
 {
-char a;
-for(a = 'A'; a < 'Z'; ++a)
-putchar(tolower(a));
-putchar('\n');
-return 0;
+_putchar();
+print_alphabet();
+return (0);
 }

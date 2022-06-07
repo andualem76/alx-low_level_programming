@@ -9,9 +9,8 @@
  */
 
 /* betty style doc for function main goes there */
-int main(void)
+char _putchar()
 {
-printf("_putchar\n");
-
-return (0);
+putchar('_putchar');
+return 0;
 }
