@@ -11,7 +11,7 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-printf("_putchar");
+printf("_putchar\n");
 
 return (0);
 }
