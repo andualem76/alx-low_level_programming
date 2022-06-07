@@ -11,7 +11,7 @@
  */
 int _islower(int c)
 {
-if (c == tolower(c) )
+if (c == tolower(c) && c != 0 && c != 20)
 {
 return (1);
 }
