@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "1-alphabet.c"
 #include "0-putchar.c"
+char _putchar(); 
+void print_alphabet();
 /**
  * main - check the code
  *
@@ -8,7 +10,6 @@
  */
 int main(void)
 {
-_putchar();
-print_alphabet();
+
 return (0);
 }
