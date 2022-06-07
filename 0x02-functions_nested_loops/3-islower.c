@@ -3,13 +3,11 @@
 #include <ctype.h>
 
 /**
- * _islower - Entry point
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
  *
- * c - charcter
- *
- * Description: 'print 10 times alphabey'
- *
- * Return: no
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
 int _islower(int c)
 {
