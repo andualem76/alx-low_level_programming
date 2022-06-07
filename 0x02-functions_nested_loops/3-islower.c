@@ -3,8 +3,8 @@
 #include <ctype.h>
 
 /**
- * _islower - Entry point
- * int c - number
+ * _islower(int c) - Entry point
+ * 
  * Description: 'print 10 times alphabey'
  *
  * Return: no
