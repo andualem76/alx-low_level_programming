@@ -2,7 +2,13 @@
 #include <stdio.h>
 #include <ctype.h>
 
-/* print_alphabet print list of alphabet*/
+/**
+ * print_alphabet - Entry point
+ * 
+ * Description: 'print alphabey'
+ * 
+ * Return: Always 0 (Success)
+ */
 void print_alphabet(void)
 {
 
