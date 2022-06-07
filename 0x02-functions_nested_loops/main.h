@@ -8,8 +8,11 @@
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-char _putchar()
+char print_alphabet()
 {
-putchar('_putchar');
+char a;
+for(a = 'A'; a < 'Z'; ++a)
+putchar(tolower(a));
+putchar('\n');
 return 0;
 }
