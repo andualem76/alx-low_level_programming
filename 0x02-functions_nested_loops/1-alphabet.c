@@ -8,10 +8,12 @@
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-void print_alphabet()
+/* print_alphabet print list of alphabet*/
+void print_alphabet(void)
 {
 char a;
-for(a = 'A'; a < 'Z'; ++a)
+for (a = 'A'; a <= 'Z'; ++a)
 putchar(tolower(a));
+
 putchar('\n');
 }
