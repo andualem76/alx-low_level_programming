@@ -17,7 +17,7 @@ int i;
 for (i = 0; i < 10; ++i)
 {
 for (a = 'A'; a <= 'Z'; ++a)
-putchar(tolower(a));
+putchar(tolower(a) + '\n');
 }
 
 putchar('\n');
