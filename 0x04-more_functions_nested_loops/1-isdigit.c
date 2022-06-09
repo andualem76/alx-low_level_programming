@@ -11,10 +11,18 @@
  */
 int _isupper(int c)
 {
-if (isdigit(c))
+int i;
+int isdigit = 0;
+for (i = 0; i < 10; i++){
+if (c == i){
+isdigit = 1;
+
+}
+}
+if(isdigit == 1){
 return (1);
+}
 else{
 return (0);
 }
-
 }
