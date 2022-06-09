@@ -9,7 +9,7 @@
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-int _isupper(int c)
+int _isdigit(int c)
 {
 int i;
 int isdigit = 0;
