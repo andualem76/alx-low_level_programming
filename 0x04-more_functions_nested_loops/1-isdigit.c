@@ -13,13 +13,15 @@ int _isdigit(int c)
 {
 int i;
 int isdigit = 0;
-for (i = 0; i < 10; i++){
-if (c == i){
+for (i = 0; i < 10; i++)
+{
+if (c == i)
+{
 isdigit = 1;
-
 }
 }
-if(isdigit == 1){
+if(isdigit == 1)
+{
 return (1);
 }
 else{
