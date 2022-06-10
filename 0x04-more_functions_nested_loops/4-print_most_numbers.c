@@ -10,13 +10,14 @@
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-void print_numbers()
+int main(void)
 {
 char i;
-for (i = 0; i < 10; i++){
-if(i != 2 && i != 4)
+for (i = 0; i < 10; i++)
 {
-putchar(i);
+if (i != 2 && i != 4)
+{
+putchar((i % 10) + '0');
 }
 }
 putchar('\n');
