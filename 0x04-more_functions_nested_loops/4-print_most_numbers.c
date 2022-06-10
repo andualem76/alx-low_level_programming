@@ -10,7 +10,7 @@
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-int main(void)
+void print_most_numbers(void)
 {
 char i;
 for (i = 0; i < 10; i++)
